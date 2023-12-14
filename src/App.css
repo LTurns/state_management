@@ -1,0 +1,48 @@
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  width: 50%;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+pre {
+  text-align: left;
+  background-color: white;
+}
+
+.column:nth-child(1) {
+  background-color: rgb(217, 240, 242);
+}
+
+.column:nth-child(2) {
+  background-color: rgb(217, 242, 227);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+button {
+  height: 50px;
+  width: 200px;
+  background-color: pink;
+  border: solid rgb(155, 153, 153) 1px;
+  margin: 3%;
+}
+
+input {
+  margin: 3%;
+  border: none;
+  border-radius: 8%;
+  height: 50px;
+  width: 200px;
+}
